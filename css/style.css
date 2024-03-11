@@ -1656,6 +1656,11 @@ header {
     margin: 3px;
     text-align: center;
     color: var(--black-color);
+    transition:  transform 0.5s;
+}
+
+.skills:hover {
+    transform: translateY(-5px);
 }
 
 .skills img {
