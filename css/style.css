@@ -169,6 +169,10 @@ body.dark-theme {
 .dark-theme .skills {
     color: var(--white-color);
 }
+
+.dark-theme .stacks {
+    color: var(--text-color-light);
+}
   /*=============== REUSABLE CSS CLASSES ===============*/
 
 .container {
@@ -407,6 +411,13 @@ header {
 .home-name {
     /* font-size: var(--biggest-font-size); */
     text-align: center;
+}
+
+.home-name b {
+    background:  linear-gradient(90deg,
+                #6D9886,
+                /* hsla(14, 80%, 50%, .3), */
+                hsla(14, 80%, 50%, 0));
 }
 
 .home-perfil {
@@ -846,6 +857,22 @@ header {
     background-color: var(--white-color);
 }
 
+.stacks-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.stacks {
+    border: 1px solid #6D9886;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 5px;
+    color: var(--black-color);
+}
+
 /* contact */
 .contact {
     padding-bottom: 0;
@@ -1143,6 +1170,10 @@ header {
         width: 180px;
     }
 
+    .home-name b {
+        font-size: 30px;
+    }
+
     .about-img {
         width: 180px;
     }
@@ -1171,6 +1202,7 @@ header {
         justify-content: center;
     }
 
+    
     .contact-data {
         width: 350px;
         padding: 4rem 1.5rem;
@@ -1331,8 +1363,9 @@ header {
 
     .home-name {
         align-self: flex-end;
-        font-size: 45px;
+        font-size: 48px;
     }
+
 
     .home-info {
         margin-top: 0;
@@ -1647,7 +1680,7 @@ header {
 .skills {
     width: 80px;
     height: 80px;
-    background-color: var(--body-color);
+    /* background-color: var(--body-color); */
     border: 1px solid #6D9886;
     color: var(--white-color);
     font-size: 14px;
