@@ -173,6 +173,10 @@ body.dark-theme {
 .dark-theme .stacks {
     color: var(--text-color-light);
 }
+
+.dark-theme section ul li {
+    background: var(--body-color);
+}
   /*=============== REUSABLE CSS CLASSES ===============*/
 
 .container {
@@ -1723,3 +1727,49 @@ header {
    margin-bottom: 1.5rem;
 
 }
+
+
+/* filter */
+section ul {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+section ul li {
+    background: var(--body-color);
+    padding: 8px 20px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+section ul li.active {
+    background: #6D9886;
+    color: var(--white-color);
+}
+
+/* .projects-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.projects-item .itemBox {
+    position: relative;
+    max-width: 550px;
+    height: 300px;
+    margin: 5px;
+}
+
+
+.projects-item .itemBox img {
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+} */
