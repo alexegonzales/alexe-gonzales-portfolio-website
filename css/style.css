@@ -794,6 +794,16 @@ header {
     margin-bottom: .75rem;
 }
 
+.projects-vid {
+    display: flex;
+    justify-content: center;
+}
+
+.projects-vid iframe {
+    max-width: 200px;
+    min-height: 350px;
+}
+
 .projects-button {
     position: absolute;
     right: 1rem;
@@ -1734,6 +1744,7 @@ section ul {
     display: flex;
     margin-bottom: 10px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 section ul li {
