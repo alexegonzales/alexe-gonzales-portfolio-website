@@ -802,6 +802,7 @@ header {
 .projects-vid iframe {
     max-width: 200px;
     min-height: 350px;
+    margin-bottom: 1rem;
 }
 
 .projects-button {
