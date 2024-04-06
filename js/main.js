@@ -145,5 +145,5 @@ const sr = ScrollReveal ({
 })
 
 sr.reveal('.home-perfil, .about-img, .contact-mail', {origin: 'right'})
-sr.reveal('.home-name, .home-info, .about-container .section-title-1, .about-info, .contact-social, .contact-data', {origin: 'left'})
+sr.reveal('.home-name, .home-info, .about-container .section-title-1, .about-info, .contact-social, .contact-data, .filter-nav', {origin: 'left'})
 sr.reveal('.services-card, .projects-card', {interval: 100})
